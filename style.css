@@ -22,8 +22,39 @@
     cursor: pointer;
 }
 .item:hover{
-    color:red;s
+    color:red;
 }
 .logo{
-    width: 120px;
+    width: 130px;
+}
+.banner-img{
+    width: 400px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(./images/background.png),linear-gradient(45deg,#000,#2f2e2e);
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 15px;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
 }
