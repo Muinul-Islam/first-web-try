@@ -73,3 +73,35 @@
     font-size: 20px;
     font-style: italic;
 }
+.first-icon{
+    border: 2px solid black;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin: 5px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
