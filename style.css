@@ -104,4 +104,26 @@
     display: flex;
     justify-content: space-around;
     padding: 35px;
+    background-image: url(./images/background.png),linear-gradient(45deg,#0c0c0c,#3e3e3e);;
+
+}
+.last-container{
+    background-image: url(./images/background.png),linear-gradient(45deg,#0b0060,#4a0000);;
+
+    display: flex;
+    justify-content: space-around;
+}
+.first-part{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+.footer{
+    text-align: center;
+    background-image: url(./images/background.png),linear-gradient(45deg,#550000,#680303);;
+color: azure;
+}
+.links{
+    font-size: 24px;
 }
